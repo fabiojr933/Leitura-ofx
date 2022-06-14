@@ -1,0 +1,22 @@
+{
+  "name": "ofx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "author": "fabio",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",   
+    "fs": "^0.0.1-security",
+    "jwt-simple": "^0.5.6",   
+    "moment": "^2.29.3",
+    "nodemon": "^2.0.16",
+    "ofx-convertjs": "^1.0.7"    
+  }
+}
